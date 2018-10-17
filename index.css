@@ -1,0 +1,55 @@
+/*haalt de margin en padding van alles weg en verandert het lettertype*/
+*{
+    margin:center;
+    padding:0;
+    font-family: fantasy;
+}
+/*verandert de grote van de knoppen, grootte van het lettertype en zorgt dat de muis verandert als je eroverheen hovert.*/
+.knop {
+    width:50px;
+    height:50px;
+    font-size:25px;
+    margin:2px;
+    cursor: pointer;
+}
+/*grootte en margin voor het uitkomst veld*/
+.uitkomst {
+    width:214px;
+    margin-top:0px;
+    margin-bottom:4px;
+    margin-left:4px;
+    margin-right:4px;    
+    height:50px;
+    font-size:25px;
+}
+/*zelfde als normale knop maar width hoger*/
+.knop0{
+    width:106px;
+    height:50px;
+    font-size:25px;
+    margin:2px;
+    cursor: pointer;
+}
+/*zelfde als normale knop maar height hoger*/
+.knopis{
+    width:50px;
+    height:106px;
+    font-size:25px;
+    margin:2px;
+    cursor: pointer;
+}
+/* niet nodig  */
+.vorige{
+    width:218px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:4px;
+    margin-right:4px; 
+    height:50px;
+    font-size:25px;
+    background-color:white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+}
